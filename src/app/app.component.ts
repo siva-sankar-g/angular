@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'simpleWebsite';
+  title = 'simple Website';
+
+  random = Math.random() * 10;
+
+  birthday = Date.now();
+
+  
 }
